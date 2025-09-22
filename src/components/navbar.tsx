@@ -8,7 +8,7 @@ export default function Navbar() {
 
     return (
         <section id="beranda">
-            <nav className="flex items-center fixed z-50 justify-between w-full lg:px-30 py-6 shadow bg-gradient-to-r from-blue-50 to-blue-100">
+            <nav className="flex items-center fixed z-50 justify-between w-full px-4 sm:px-6 lg:px-20 py-4 shadow bg-gradient-to-r from-blue-50 to-blue-100">
                 {/* Logo */}
                 <Image
                     src="/sinergi-ji.png"

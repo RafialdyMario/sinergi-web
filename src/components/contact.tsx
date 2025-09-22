@@ -2,32 +2,41 @@ import { FaWhatsapp, FaEnvelope, FaClock, FaMapMarkerAlt, FaHeadset } from "reac
 
 export default function Contact() {
     return (
-        <section id="kontak" className="bg-gradient-to-r from-blue-50 to-blue-100 py-8 font-sans">
-            <h2 className="text-3xl font-bold text-center mb-6">Kontak Info</h2>
-            <div className="flex flex-wrap justify-center gap-8 text-sm">
+        <section
+            id="kontak"
+            className="bg-gradient-to-r from-blue-50 to-blue-100 px-5 py-10 font-sans"
+        >
+            <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
+                Kontak Info
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8 max-w-4xl mx-auto text-sm">
                 {/* WhatsApp */}
-                <div className="flex items-center gap-2">
-                    <FaWhatsapp className="text-green-400" />
+                <div className="flex items-center gap-3">
+                    <FaWhatsapp className="text-green-500 text-lg" />
                     <span>0811410112</span>
                 </div>
+
                 {/* Email */}
-                <div className="flex items-center gap-2">
-                    <FaEnvelope className="text-blue-400" />
+                <div className="flex items-center gap-3">
+                    <FaEnvelope className="text-blue-500 text-lg" />
                     <span>diskominfo@makassarkota.go.id</span>
                 </div>
+
                 {/* Jam kerja */}
-                <div className="flex items-center gap-2">
-                    <FaClock className="text-yellow-400" />
+                <div className="flex items-center gap-3">
+                    <FaClock className="text-yellow-500 text-lg" />
                     <span>Mon - Fri: 8:00 - 16:00</span>
                 </div>
+
                 {/* Lokasi */}
-                <div className="flex items-center gap-2">
-                    <FaMapMarkerAlt className="text-red-400" />
+                <div className="flex items-center gap-3 sm:col-span-2">
+                    <FaMapMarkerAlt className="text-red-500 text-lg" />
                     <span>Gedung MGC, Lt. 7, Jl. Slamet Riyadi</span>
                 </div>
+
                 {/* Call Center */}
-                <div className="flex items-center gap-2">
-                    <FaHeadset className="text-purple-400" />
+                <div className="flex items-center gap-3">
+                    <FaHeadset className="text-purple-500 text-lg" />
                     <span>Call Centre: 112</span>
                 </div>
             </div>
