@@ -28,8 +28,8 @@ export default function Navbar() {
                         href="#beranda"
                         onClick={() => setActive("beranda")}
                         className={`transition ${active === "beranda"
-                                ? "text-[#407896]"
-                                : "text-gray-500 hover:text-[#407896]"
+                            ? "text-[#407896]"
+                            : "text-gray-500 hover:text-[#407896]"
                             }`}
                     >
                         Beranda
@@ -38,8 +38,8 @@ export default function Navbar() {
                         href="#fitur"
                         onClick={() => setActive("fitur")}
                         className={`transition ${active === "fitur"
-                                ? "text-[#407896]"
-                                : "text-gray-500 hover:text-[#407896]"
+                            ? "text-[#407896]"
+                            : "text-gray-500 hover:text-[#407896]"
                             }`}
                     >
                         Fitur
@@ -48,8 +48,8 @@ export default function Navbar() {
                         href="#kontak"
                         onClick={() => setActive("kontak")}
                         className={`transition ${active === "kontak"
-                                ? "text-[#407896]"
-                                : "text-gray-500 hover:text-[#407896]"
+                            ? "text-[#407896]"
+                            : "text-gray-500 hover:text-[#407896]"
                             }`}
                     >
                         Kontak
@@ -58,7 +58,7 @@ export default function Navbar() {
 
                 {/* Hamburger menu - only mobile */}
                 <button
-                    className="md:hidden text-gray-600 text-2xl"
+                    className="md:hidden text-[#407896] text-2xl"
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     {isOpen ? <FaTimes /> : <FaBars />}
@@ -74,8 +74,8 @@ export default function Navbar() {
                                 setIsOpen(false);
                             }}
                             className={`transition ${active === "beranda"
-                                    ? "text-[#407896]"
-                                    : "text-gray-600 hover:text-[#407896]"
+                                ? "text-[#407896]"
+                                : "text-gray-600 hover:text-[#407896]"
                                 }`}
                         >
                             Beranda
@@ -87,8 +87,8 @@ export default function Navbar() {
                                 setIsOpen(false);
                             }}
                             className={`transition ${active === "fitur"
-                                    ? "text-[#407896]"
-                                    : "text-gray-600 hover:text-[#407896]"
+                                ? "text-[#407896]"
+                                : "text-gray-600 hover:text-[#407896]"
                                 }`}
                         >
                             Fitur
@@ -100,8 +100,8 @@ export default function Navbar() {
                                 setIsOpen(false);
                             }}
                             className={`transition ${active === "kontak"
-                                    ? "text-[#407896]"
-                                    : "text-gray-600 hover:text-[#407896]"
+                                ? "text-[#407896]"
+                                : "text-gray-600 hover:text-[#407896]"
                                 }`}
                         >
                             Kontak
