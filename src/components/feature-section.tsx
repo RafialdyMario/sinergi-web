@@ -13,7 +13,7 @@ export default function FeatureSection({
 }: FeatureProps) {
     return (
         <section
-            className={`flex flex-col lg:flex-row items-center justify-center pt-15 pb-30 px-20 lg:px-20 gap-x-16 ${reverse ? "lg:flex-row-reverse" : ""}`}
+            id="fitur" className={`flex flex-col lg:flex-row items-center justify-center pt-15 pb-10 px-20 lg:px-20 gap-x-16 ${reverse ? "lg:flex-row-reverse" : ""}`}
         >
             {/* Text */}
             <div className="lg:w-1/4 space-y-6 text-center lg:text-left mx-auto">
@@ -30,8 +30,5 @@ export default function FeatureSection({
                 />
             </div>
         </section>
-
-
-
     );
 }

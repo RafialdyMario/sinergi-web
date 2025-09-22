@@ -1,17 +1,16 @@
 import React from "react";
 import Image from "next/image";
 
-
 export default function Hero() {
     return (
-        <div className="pb-20 px-6 flex flex-col lg:flex-row items-center lg:items-stretch justify-between bg-gradient-to-r lg:px-20 from-blue-50 to-blue-100 min-h-screen">
+        <div className="pb-20 px-6 flex flex-col-reverse lg:flex-row items-center lg:items-stretch justify-between bg-gradient-to-r lg:px-30 from-blue-50 to-blue-100 min-h-screen">
             {/* Bagian teks */}
-            <section className="w-full flex flex-col justify-center items-center text-center pb-20 px-4 
+            <section className="w-full flex flex-col justify-center items-center text-center pb-20 
                         lg:items-start lg:text-left lg:pb-0">
-                <h1 className="text-2xl lg:text-4xl leading-normal font-sans text-gray-900 font-semibold mb-6 lg:pl-6 lg:w-3/4">
+                <h1 className="text-2xl lg:text-4xl leading-normal font-sans text-gray-900 font-semibold mb-6 lg:w-3/4">
                     Sistem Pelaporan Jaringan Transparan dan Dapat Dipantau Secara Real-Time
                 </h1>
-                <p className="text-base lg:text-lg text-gray-700 mb-8 lg:pl-6 lg:w-3/5">
+                <p className="text-base lg:text-lg text-gray-700 mb-8 lg:w-3/5">
                     SINERGI-JI aplikasi untuk pelaporan dan pemantauan jaringan intra pemerintah.
                     Dengan notifikasi real-time, grafik interaktif, dan catatan kolaborasi, penyelesaian masalah jaringan
                     kini lebih cepat, transparan, dan efisien.
@@ -51,7 +50,7 @@ export default function Hero() {
             </section>
             {/* Mockup hp */}
             <section className="flex justify-center lg:justify-end lg:pr-20 self-center">
-                <div className="w-60 md:w-68 lg:w-75 relative">
+                <div className="w-60 md:w-72 lg:w-96 relative">
                     <Image
                         src="/splash.png"
                         alt="App Preview"
@@ -64,6 +63,4 @@ export default function Hero() {
             </section>
         </div>
     )
-
 }
-

@@ -1,12 +1,13 @@
+import Contact from "@/components/contact";
 import FeatureSection from "@/components/feature-section";
+import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
-import Image from "next/image";
 
 export default function HomePage() {
   return (
     <div className="font-sans w-full min-h-screen flex flex-col">
-      <main className="flex flex-col w-full pb-10">
+      <main className="flex flex-col w-full">
         <Navbar />
         <Hero />
         <FeatureSection
@@ -43,6 +44,8 @@ export default function HomePage() {
           image="/notifikasi.png"
           reverse
         />
+        <Contact />
+        <Footer />
       </main>
     </div>
 
