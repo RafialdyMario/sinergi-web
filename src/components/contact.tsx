@@ -37,7 +37,7 @@ export default function Contact() {
                 {/* Call Center */}
                 <div className="flex items-center gap-3">
                     <FaHeadset className="text-purple-500 text-lg" />
-                    <span>Call Centre: 112</span>
+                    <span>Call Center: 112</span>
                 </div>
             </div>
         </section>
