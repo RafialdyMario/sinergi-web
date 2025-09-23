@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <div className="pb-20 px-6 flex flex-col-reverse lg:flex-row items-center lg:items-stretch justify-between bg-gradient-to-r lg:px-30 from-blue-50 to-blue-100 min-h-screen">
+        <div className="pt-30 pb-20 px-6 flex flex-col-reverse lg:flex-row items-center lg:pb-20 lg:items-stretch justify-between bg-gradient-to-r lg:px-30 from-blue-50 to-blue-100">
             {/* Bagian teks */}
-            <section className="w-full flex flex-col justify-center items-center text-center pb-20 
-                        lg:items-start lg:text-left lg:pb-0">
+            <section className="w-full flex flex-col justify-center items-center text-center 
+                        lg:items-start lg:text-left ">
                 <h1 className="text-2xl lg:text-4xl leading-normal font-sans text-gray-900 font-semibold mb-6 lg:w-3/4">
                     Sistem Pelaporan Jaringan Transparan dan Dapat Dipantau Secara Real-Time
                 </h1>
@@ -49,16 +49,13 @@ export default function Hero() {
                 </div>
             </section>
             {/* Mockup hp */}
-            <section className="flex justify-center lg:justify-end lg:pr-20 self-center">
-                <div className="w-60 md:w-72 lg:w-96 relative">
-                    <Image
+            <section className="flex justify-center lg:justify-end self-center">
+                <div className="lg:w-120 flex mt-10 lg:mt-0 mx-auto shadow-2xs">
+                    <img
                         src="/splash.png"
-                        alt="App Preview"
-                        width={360}
-                        height={720}
-                        className="rounded-3xl drop-shadow-[-8px_8px_20px_rgba(0,0,0,0.5)]"
-                        priority
+                        className="w-full max-w-sm lg:max-w-md rounded-2xl drop-shadow-[-8px_8px_20px_rgba(0,0,0,0.4)]"
                     />
+
                 </div>
             </section>
         </div>

@@ -1,4 +1,4 @@
-import { FaWhatsapp, FaEnvelope, FaClock, FaMapMarkerAlt, FaHeadset } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaClock, FaMapMarkerAlt, FaHeadset, FaGlobe } from "react-icons/fa";
 
 export default function Contact() {
     return (
@@ -9,7 +9,7 @@ export default function Contact() {
             <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
                 Kontak Info
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8 max-w-4xl mx-auto text-sm">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-6 gap-x-10 max-w-5xl mx-auto text-sm">
                 {/* WhatsApp */}
                 <div className="flex items-center gap-3">
                     <FaWhatsapp className="text-green-500 text-lg" />
@@ -22,6 +22,12 @@ export default function Contact() {
                     <span>diskominfo@makassarkota.go.id</span>
                 </div>
 
+                {/* Website */}
+                <div className="flex items-center gap-3">
+                    <FaGlobe className="text-indigo-500 text-lg" />
+                    <span>www.makassarkota.go.id</span>
+                </div>
+
                 {/* Jam kerja */}
                 <div className="flex items-center gap-3">
                     <FaClock className="text-yellow-500 text-lg" />
@@ -29,7 +35,7 @@ export default function Contact() {
                 </div>
 
                 {/* Lokasi */}
-                <div className="flex items-center gap-3 sm:col-span-2">
+                <div className="flex items-center gap-3">
                     <FaMapMarkerAlt className="text-red-500 text-lg" />
                     <span>Gedung MGC, Lt. 7, Jl. Slamet Riyadi</span>
                 </div>
@@ -40,6 +46,7 @@ export default function Contact() {
                     <span>Call Center: 112</span>
                 </div>
             </div>
+
         </section>
     );
 }
