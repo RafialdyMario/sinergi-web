@@ -51,7 +51,7 @@ export default function Hero() {
             {/* Mockup hp */}
             <section className="flex justify-center lg:justify-end self-center mb-12 lg:mb-0">
                 {/* ↑ kasih mb-12 biar ada jarak di mobile */}
-                <div className="lg:w-120 flex mt-10 lg:mt-0 mx-auto shadow-2xs">
+                <div className="lg:w-120 flex mt-10 lg:mt-0 mx-auto">
                     <img
                         src="/splash.png"
                         className="w-full max-w-sm lg:max-w-md rounded-2xl drop-shadow-[-8px_8px_20px_rgba(0,0,0,0.4)]"

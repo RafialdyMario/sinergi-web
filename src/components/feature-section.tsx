@@ -22,7 +22,7 @@ export default function FeatureSection({
             </div>
 
             {/* Image */}
-            <div className="lg:w-1/4 flex mt-10 lg:mt-0 mx-auto shadow-2xs">
+            <div className="lg:w-1/4 flex mt-10 lg:mt-0 mx-auto">
                 <img
                     src={image}
                     alt={title}
