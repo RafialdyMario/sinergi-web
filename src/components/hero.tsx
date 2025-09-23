@@ -6,7 +6,7 @@ export default function Hero() {
         <div className="pt-30 pb-20 px-6 flex flex-col-reverse lg:flex-row items-center lg:pb-20 lg:items-stretch justify-between bg-gradient-to-r lg:px-30 from-blue-50 to-blue-100">
             {/* Bagian teks */}
             <section className="w-full flex flex-col justify-center items-center text-center 
-                        lg:items-start lg:text-left ">
+                        lg:items-start lg:text-left lg:mr-12"> {/* <-- tambahin lg:mr-12 */}
                 <h1 className="text-2xl lg:text-4xl leading-normal font-sans text-gray-900 font-semibold mb-6 lg:w-3/4">
                     Sistem Pelaporan Jaringan Transparan dan Dapat Dipantau Secara Real-Time
                 </h1>
@@ -49,7 +49,8 @@ export default function Hero() {
                 </div>
             </section>
             {/* Mockup hp */}
-            <section className="flex justify-center lg:justify-end self-center">
+            <section className="flex justify-center lg:justify-end self-center mb-12 lg:mb-0">
+                {/* ↑ kasih mb-12 biar ada jarak di mobile */}
                 <div className="lg:w-120 flex mt-10 lg:mt-0 mx-auto shadow-2xs">
                     <img
                         src="/splash.png"
