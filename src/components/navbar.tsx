@@ -18,10 +18,9 @@ export default function Navbar() {
                     width={0}
                     height={0}
                     sizes="100vw"
-                    className="h-8 w-auto sm:h-9 md:h-10"
+                    className="h-10 w-auto md:h-14 lg:16"
                     priority
                 />
-
                 {/* Navigation Links - hidden on mobile */}
                 <div className="hidden md:flex gap-6 text-base font-medium">
                     <Link

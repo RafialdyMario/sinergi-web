@@ -55,7 +55,6 @@ export default function Hero() {
                         src="/splash.png"
                         className="w-full max-w-sm lg:max-w-md rounded-2xl drop-shadow-[-8px_8px_20px_rgba(0,0,0,0.4)]"
                     />
-
                 </div>
             </section>
         </div>
