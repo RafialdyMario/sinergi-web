@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Landing Page",
+  title: "Sinergi-ji",
   description: "Sinergi-ji landing page built with Next.js + Tailwind",
 };
 
