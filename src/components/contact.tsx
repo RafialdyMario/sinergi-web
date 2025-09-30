@@ -25,7 +25,7 @@ export default function Contact() {
                 {/* Website */}
                 <div className="flex items-center gap-3">
                     <FaGlobe className="text-indigo-500 text-lg" />
-                    <span>www.makassarkota.go.id</span>
+                    <span>sinergi-ji.makassarkota.go.id</span>
                 </div>
 
                 {/* Jam kerja */}
@@ -37,7 +37,7 @@ export default function Contact() {
                 {/* Lokasi */}
                 <div className="flex items-center gap-3">
                     <FaMapMarkerAlt className="text-red-500 text-lg" />
-                    <span>Gedung MGC, Lt. 7, Jl. Slamet Riyadi</span>
+                    <span>Gedung MGC, Lt. 7, Jl. Sultan Hasanuddin</span>
                 </div>
 
                 {/* Call Center */}

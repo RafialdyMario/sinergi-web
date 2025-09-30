@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sinergi-ji",
   description: "Sinergi-ji landing page built with Next.js + Tailwind",
+  icons: {
+    icon: "/sinergi-icon.png", // pakai PNG
+  },
 };
 
 export default function RootLayout({
