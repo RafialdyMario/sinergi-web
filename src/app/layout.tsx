@@ -14,11 +14,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Sinergi-ji",
-  description: "Sinergi-ji memudahkan pemantauan jaringan intra pemerintah dengan notifikasi real-time, grafik interaktif, dan kolaborasi cepat untuk penyelesaian masalah yang efisien.",
+  description:
+    "SINERGI-JI adalah aplikasi untuk pelaporan dan pemantauan jaringan intra pemerintah dengan notifikasi real-time, grafik interaktif, dan catatan kolaborasi agar penyelesaian masalah lebih cepat, transparan, dan efisien.",
   icons: {
-    icon: "/sinergi-icon.png", // pakai PNG
+    icon: "/favicon.ico",
   },
 };
+
 
 export default function RootLayout({
   children,
